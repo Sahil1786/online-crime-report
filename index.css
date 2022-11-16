@@ -1,0 +1,283 @@
+body {
+    text-align: center;
+    background-color: #96E5D1;
+
+}
+
+
+
+
+
+b {
+    font-family: "Montserrat";
+    width: 900;
+
+}
+
+
+.ion {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+li {
+    position: center;
+    display: flex;
+    gap: 10px;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    width: 130px;
+    height: 60px;
+    background: rgb(224, 220, 220);
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    box-shadow: 5px;
+    transition: 0.5s;
+
+}
+
+li:hover {
+    width: 180px;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#bg-1 { margin-top: 0;
+    background-color: aqua;
+}
+
+#bg-2 {
+    background-image: url(image/im7.jpg);
+}
+
+#footer-bg-img {
+    background-color: #72FFFF;
+
+
+}
+
+
+.carousel-inner {
+    width: 30%;
+}
+
+
+
+#carouselExampleControls {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+
+
+
+.carousel-item {
+    text-align: center;
+}
+
+#carouselExampleCrossfade {
+
+    background-color: #96E5D1;
+
+}
+
+.carousel-item {
+    width: 20%;
+    height: 20%;
+    padding-top: 30px;
+}
+
+button {
+    background-color: black;
+}
+
+/* developer */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* all similar content styling codes */
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.teams {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+section.title-2 {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section.title-2::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+section.title-2::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+/* teams section styling */
+
+.teams .carousel .card {
+    background: #222;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover {
+    background: crimson;
+}
+
+.teams .carousel .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover .box {
+    transform: scale(1.05);
+}
+
+.teams .carousel .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.teams .carousel .card:hover img {
+    border-color: #fff;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+    background: crimson !important;
+}
+
+
+
+
+
+
+.scroll-up-btn {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+}
+
+#teams {
+    background-color: #111;
+}
+
+/* iCons */
+.icon-1 {
+    color: blueviolet;
+}
+
+/* developer name */
+.text {
+    color: green;
+}
+
+.pragraph-1 {
+    color: #FFABE1;
+}
